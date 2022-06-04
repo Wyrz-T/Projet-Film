@@ -1,40 +1,6 @@
 {
     "Search":[
-       {
-          "Title":"TChoupi et ses amis - 1, 2, 3 soleil!",
-          "Year":"2010",
-          "imdbID":"tt3402144",
-          "Type":"movie",
-          "Poster":"N/A"
-       },
-       {
-          "Title":"TChoupi et ses amis - La balade en forêt",
-          "Year":"2010",
-          "imdbID":"tt3402146",
-          "Type":"movie",
-          "Poster":"N/A"
-       },
-       {
-          "Title":"TChoupi et ses amis - La super classe",
-          "Year":"2010",
-          "imdbID":"tt3402148",
-          "Type":"movie",
-          "Poster":"N/A"
-       },
-       {
-          "Title":"TChoupi et ses amis - Le cache-cache géant",
-          "Year":"2010",
-          "imdbID":"tt3402152",
-          "Type":"movie",
-          "Poster":"N/A"
-       },
-       {
-          "Title":"TChoupi et ses amis - Le plus beau sapin de Noël",
-          "Year":"2010",
-          "imdbID":"tt3402156",
-          "Type":"movie",
-          "Poster":"N/A"
-       },
+      
            {
               "Title":"Peppa Pig",
               "Year":"2004–",
@@ -91,20 +57,7 @@
               "Type":"movie",
               "Poster":"https://m.media-amazon.com/images/M/MV5BMTgzMTAwNDczMF5BMl5BanBnXkFtZTgwNzUzMzU0MTE@._V1_SX300.jpg"
            },
-           {
-              "Title":"Peppa Pig New Shoes and Other Stories",
-              "Year":"2003",
-              "imdbID":"tt4055348",
-              "Type":"movie",
-              "Poster":"N/A"
-           },
-           {
-              "Title":"Peppa Pig: Vacanze Al Sole E Altre Storie",
-              "Year":"2014",
-              "imdbID":"tt6449464",
-              "Type":"movie",
-              "Poster":"N/A"
-           },
+          
         {
            "Title":"The Amazing Spider-Man 2",
            "Year":"2014",
@@ -304,32 +257,11 @@
         "Poster":"https://m.media-amazon.com/images/M/MV5BMjEzMzEzNjg0N15BMl5BanBnXkFtZTcwMzg4NDk0Ng@@._V1_SX300.jpg"
      },
      {
-        "Title":"Sans Un Bruit",
-        "Year":"2020",
-        "imdbID":"tt12976008",
-        "Type":"movie",
-        "Poster":"N/A"
-     },
-     {
         "Title":"The Dead Pool",
         "Year":"1988",
         "imdbID":"tt0094963",
         "Type":"movie",
         "Poster":"https://m.media-amazon.com/images/M/MV5BMjFiZjVmY2QtMjk4Ni00OWIxLTg4ZDItZWMxMGJlZmUzNWYzXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg"
-     },
-     {
-        "Title":"The Dead Pool",
-        "Year":"2010",
-        "imdbID":"tt1656785",
-        "Type":"movie",
-        "Poster":"N/A"
-     },
-     {
-        "Title":"AMC Fear Fest, Dead Pool",
-        "Year":"2012",
-        "imdbID":"tt8252148",
-        "Type":"series",
-        "Poster":"N/A"
      }
   ],
   "totalResults":"1",
