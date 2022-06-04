@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlimTiv</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+      .card {
+width:20%;
+display:inline-block;
+margin:20px 0;
+padding:0 5px;
+}
+@media (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+ }
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+ }
+  </style>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/film/img/logo-site.jpg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        FilmTiv
+      </a>
+    </div>
+  </nav>
+  
+  
+  
+  <header>
+      <div class="owl-carousel owl-theme">
+          <div class="item">
+              <img src="/film/img/affiche-spider-man.jpg" alt="">
+              <div class="cover">
+                  <div class="container">
+                      <div class="header-content">
+                          <div class="line"></div>
+                          <h2>Spider-Man : No Way Home</h2>
+                          <h1>Un des meilleurs Spider-Man</h1>
+                          <h4>Parce que faut pas abuser c'est pas le meilleur des Spider-Man</h4>
+                      </div>
+                  </div>
+               </div>
+          </div>                    
+          <div class="item">
+              <img src="/film/img/affiche-real-steel-3.webp" alt="">
+              <div class="cover">
+                  <div class="container">
+                      <div class="header-content">
+                          <div class="line animated bounceInLeft"></div>
+                          <h2>Real Steel</h2>
+                          <h1>Le meilleur film au monde</h1>
+                          <h4>Je veux rien savoir</h4>
+                      </div>
+                  </div>
+               </div>
+          </div>                
+          <div class="item">
+              <img src="/film/img/affiche-Avengers-Endgame.jpg" alt="">
+              <div class="cover">
+                  <div class="container">
+                      <div class="header-content">
+                          <div class="line animated bounceInLeft"></div>
+                          <h2>Avengers : EndGame</h2>
+                          <h1>Le plus long film au monde jamais fait</h1>
+                          <h4>Une pépite</h4>
+                      </div>
+                  </div>
+               </div>
+          </div>
+      </div>
+  </header>
+
+
+
+  <div class="container" id="films">
+    <div class="row">
+      <div class="list-movies"></div>
+        <!--<div class="card" style="width: 18rem;">
+            <img src="/img/affiche-peppa.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Peppa Pig : Le Festival</h5>
+              <p class="card-text">Peppa Pig est un déssin animé avec des animaux qui parlent. Dans la série, nous suivons les aventures de la famille Pig et de ses amis.</p>
+              <a href="#" class="btn btn-primary">Y Aller</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/img/affiche-spider-man-2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Spider-Man : No Way Home</h5>
+              <p class="card-text">Avec l'identité de Spiderman désormais révélée, celui-ci est démasqué et n'est plus en mesure de séparer sa vie normale en tant que Peter Parker des enjeux élevés d'être un superhéros. Lorsque Peter demande de l'aide au docteur Strange, les enjeux deviennent encore plus dangereux, l'obligeant à découvrir ce que signifie vraiment être Spiderman.</p>
+              <a href="#" class="btn btn-primary">Y Aller</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/img/affiche-real-steel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Real Steel</h5>
+              <p class="card-text">Dans un futur proche, la boxe a évolué pour devenir un sport high-tech. Charlie Kenton, un ancien boxeur, a perdu toute chance de remporter le championnat depuis que les humains ont été remplacés sur le ring par des robots d’acier de 900 kilos et de 2,40 m de haut. A présent, il n’est plus qu’un manager minable qui utilise des robots bas de gamme fabriqués à partir de pièces de récupération. Il gagne juste assez pour survivre d’un combat à l’autre. Lorsque Charlie touche le fond, il accepte à contrecœur de faire équipe avec son fils Max, qu’il a perdu de vue depuis des années, pour construire et entraîner un champion. Dans l’arène où tous les coups sont permis, les enjeux sont plus élevés qu’ils ne l’ont jamais été. Contre toute attente, Charlie et Max ont une chance, une seule, de faire leur grand retour…</p>
+              <a href="#" class="btn btn-primary">Y Aller</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="/img/garage-purple.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Garage 404</h5>
+              <p class="card-text">Meilleur école de codage à ce jour.</p>
+              <a href="https://garage404.com" class="btn btn-primary">Y Aller</a>
+            </div>-->
+          </div>
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+<script>
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    nav:true,
+    mouseDrag:false,
+    autoplay:true,
+    animateOut: 'slideOutUp',
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
+
+</script>
+<script>
+
+
+
+async function getMovies() {
+    let url = "peppa-pig-cest-cool.json"
+    const response = await fetch(url)
+    const data = await response.json()
+    return data.Search
+}
+
+const data = getMovies().then(function (movies) {
+console.log(movies);
+    movies.forEach(movie => {
+
+        let divMovieContent = document.querySelector(".list-movies")
+        let divCardContent = document.createElement("div")
+        divCardContent.className = "card-content col-2"
+        const img = document.createElement("img")
+        const divMovieTitle = document.createElement("div")
+        const divMovieYear = document.createElement("h5")
+        divMovieTitle.className = "title"
+        divMovieYear.className = "annee"
+
+        img.setAttribute("src", movie.Poster)
+        divMovieTitle.textContent = movie.Title
+        divMovieYear.textContent = movie.Year
+
+        divMovieContent.appendChild(divCardContent)
+        divCardContent.appendChild(img)
+        divCardContent.appendChild(divMovieTitle)
+        divCardContent.appendChild(divMovieYear)
+    });
+})
+
+
+</script>
+</body>
+</html>
+
+<!-- Footer -->
+<footer class="page-footer font-small blue">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a href="/"> FilmTiv.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
